@@ -1,0 +1,136 @@
+/* Body & Background */
+
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #f0f0f0 !important;
+}
+
+.nav-link:hover {
+  color: #00acee !important;
+}
+
+/* Carousel */
+
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.carousel-caption h1 {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+  color: #dddddd;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+/* Sections */
+
+#about, #contact {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 4rem 0;
+  border-radius: 1rem;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Cards */
+
+.card {
+  background-color: #1c1c1c;
+  border: none;
+  border-radius: 1rem;
+}
+
+.card-title {
+  color: #ffffff;
+}
+
+.card-text {
+  color: #cccccc;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Forms */
+
+form input, form textarea {
+  border-radius: 0.5rem;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #aaaaaa;
+}
+
+/* Buttons */
+
+.btn-primary {
+  background-color: #00acee;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0084b4;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* Fancy Footer */
+
+.footer a {
+  color: #f0f0f0;
+}
+
+.footer a:hover {
+  color: #00acee;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer p {
+  color: #aaaaaa;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
